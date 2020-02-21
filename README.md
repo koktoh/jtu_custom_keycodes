@@ -15,7 +15,7 @@ JISキーボードで物理的にUS配列を実現するための [QMK Firmware]
 |`JU_EQL`|`=` / Shift で `+`|
 |`JU_LBRC`|`[` / Shift で `{`|
 |`JU_RBRC`|`]` / Shift で `}`|
-|`JU_BSLS`|`\` / Shift で `|`|
+|`JU_BSLS`|`\` / Shift で <code>&#124;</code>|
 |`JU_SCLN`|`;` / Shift で `:`|
 |`JU_QUOT`|`'` / Shift で `"`|
 |`JU_GRV`|`` ` `` / Shift で `~`|
