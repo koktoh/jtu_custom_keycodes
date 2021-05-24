@@ -259,15 +259,15 @@ bool process_record_user_jtu(uint16_t keycode, keyrecord_t *record) {
           if (lshift) unregister_code(KC_LSFT);
           if (rshift) unregister_code(KC_RSFT);
           register_code(KC_LSFT);
-          register_code(KC_LBRC);
-          unregister_code(KC_LBRC);
+          register_code(KC_EQL);
+          unregister_code(KC_EQL);
           unregister_code(KC_LSFT);
           if (lshift) register_code(KC_LSFT);
           if (rshift) register_code(KC_RSFT);
         } else {
           register_code(KC_LSFT);
-          register_code(KC_EQL);
-          unregister_code(KC_EQL);
+          register_code(KC_LBRC);
+          unregister_code(KC_LBRC);
           unregister_code(KC_LSFT);
         }
       }
